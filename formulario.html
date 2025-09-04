@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Complete Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="/process" method="post">
+    <label>Name:</label>
+    <input type="text" name="name">
+    <label>Password:</label>
+    <input type="password" name="password"><br>
+    <label>correo:</label>
+    <input type="email" name="email"><br>
+    <label>edad:</label>
+    <input type="number" name="age"><br>
+    <label>telefono:</label>
+    <input type="tel" name="telefono"><br>
+    <label>fecha de cumpleaños:</label>
+    <input type="date" name="cumpleaños"><br>
+    <p>Genero:</p>
+    <input type="radio" name="genero" value="M"> Hombre
+    <input type="radio" name="genero" value="F"> Mujer
+    <input type="radio" name="genero" value="o"> Otro
+    <p>Hobbies:</p>
+    <input type="checkbox" name="hobby" value="leer"> leer
+    <input type="checkbox" name="hobby" value="dibujar"> dibujar
+    <input type="checkbox" name="hobby" value="oir musica"> oir musica
+    <label>localidad:</label>
+    <select name="localidad">
+      <option value="bosa">bosa</option>
+      <option value="soacha">soacha</option>
+      <option value="kennedy">kennedy</option>
+    </select>
+    <input type="submit" value="enviar">
+  </form>
+</body>
+</html>
